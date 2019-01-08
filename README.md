@@ -3,6 +3,7 @@ Step 1 : Start.
 Step 2 : Create SQL Database to Store all the Attributes of the properties through Sql querries.
 
 Step 3 : Declare an variable to store the user information.
+
          //In this step the user information whether he is buyer or seller of properties is going to be stored.
 
 Step 4 : Check whether the value of variable in Step 3. If it is equal to Seller go to Step 5 or else if it is Buyer go to Step 9.
