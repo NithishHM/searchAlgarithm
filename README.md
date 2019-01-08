@@ -39,7 +39,7 @@ Step 11 : Find the Distance of the Property,Declare and Store it in an Variable.
            
 Step 12 : Perform Validation of Distance Parameter.
 
-           //if(Distance<10)
+           if(Distance<10)
              return valid;
               else
              return invalid;
@@ -70,7 +70,8 @@ Step 12 : Perform Validation of Distance Parameter.
            //Add the match percent value with previous value(In this case zero).
              Match Percentage is calculated as follows
              
-            1.If Both Attributes MinBudget and MaxBudget present 
+            1.If Both Attributes MinBudget and MaxBudget present.
+            
               if(Budget>=MinBudget && Budget<=MaxBudget)
                 Add Full 30 Percentage;
                 
@@ -92,7 +93,8 @@ Step 12 : Perform Validation of Distance Parameter.
            //Add the match percent value with previous value(In this case zero).
              Match Percentage is calculated as follows
              
-            1.If Both Attributes MinBedroomRecquired and MaxBedroomRecquired present 
+            1.If Both Attributes MinBedroomRecquired and MaxBedroomRecquired present. 
+            
               if(NoOfBedrooms>=MinBedroomsRecquired && NoOfBedrooms<=MaxBedrooms recquired)
                 Add Full 20 Percentage;
                 
@@ -114,7 +116,8 @@ Step 12 : Perform Validation of Distance Parameter.
            //Add the match percent value with previous value(In this case zero).
              Match Percentage is calculated as follows
              
-            1.If Both Attributes MinBedroomRecquired and MaxBedroomRecquired present 
+            1.If Both Attributes MinBedroomRecquired and MaxBedroomRecquired present.
+            
               if(NoOfBathrooms>=MinBathroomsRecquired && NoOfBathrooms<=MaxBathrooms recquired)
                 Add Full 20 Percentage;
                 
@@ -128,9 +131,9 @@ Step 23 : Jump to Step 9 Untill the end of For loop.
          
 Step 24 : Display all valid Results along with their match Percent and Details os Sale/Rent Information.
 
-           //if(MatchPercent>=40)
+            if(MatchPercent>=40)
               Display Matched property and MatchPercent;
-              else
+            else
               Display Not Found Message.
       
 Step 25 : Stop.             
